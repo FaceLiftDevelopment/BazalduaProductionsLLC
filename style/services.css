@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
+
+body { 
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+hr{
+    background-color: #FCC61F;
+    height: 2px;
+}
+
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 9999;
+    background: #233658;  
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+    height: 75px;
+}
+
+
+.navbar a{
+    color: #97aabd
+}
+
+.navbar i{
+    color: white;
+    margin: 0 1rem;
+}
+
+#nav-phone{
+    color: white;
+    font-size: 20px;
+}
+
+#navbar-brand{
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.mobilenav {
+    overflow: hidden;
+    background-color: #253441;
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    display: none;
+    z-index: 999;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+  }
+
+  .hide-mobile-nav{
+    top: -50px;
+    box-shadow: none;
+}
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .mobilenav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .mobilenav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    padding: 14px 16px;
+  }
+  
+  /* Style the hamburger menu */
+  .mobilenav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .mobilenav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    color: white;
+    padding: 14px 16px;
+  }
+
+  .mobilenav #number{
+      padding: 0rem;
+    color: rgb(165, 165, 165);
+    float: right;
+    margin-right: 40px;
+  }
+  .mobilenav #number:hover {
+    background-color: #253441;
+  }
+
+.title-card {
+    background-image: url("assets/concrete4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 75vh;
+}
+
+.title-card h2{
+    text-align: center;
+    padding-top: 30vh;
+}
+
+#title-header{
+    color: white;
+    font-size: 30px;
+    font-size: 2.5vw;
+}
+
+.service-bar{
+background: #7190B3;
+box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+}
+
+.service-bar a{
+    text-decoration: none;
+    }
+
+.service-bar h5{
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.service-button1:hover{
+    cursor: pointer;
+    background: rgba(97, 130, 167, 0.925);
+}
+
+.service-button2:hover{
+    cursor: pointer;
+    background: rgba(97, 130, 167, 0.925);
+}
+
+.service-button3:hover{
+    cursor: pointer;
+    background: rgba(97, 130, 167, 0.925);
+}
+
+.service{
+    text-align: center;
+    padding: 3rem 4rem 0rem 4rem;
+}
+
+.service p{
+    text-align: left;
+    padding: 1rem 3rem;
+}
+
+.service ul{
+    text-align: left;
+    padding: 0rem 3rem;
+}
+
+.service-picture{
+    max-width:100%;
+    height:auto;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+.service3-above{
+    display: none;
+}
+
+.map{
+    padding: 2rem 5rem;
+    background: rgba(133, 144, 170, 0.158);
+}
+
+.map h3{
+    text-align: center;
+}
+
+#map {
+    height:45vh;
+    width: 100%;
+}
+
+.map .contact-text{
+    position: relative;
+}
+
+.map h4{
+    font-weight: 800;
+}
+
+.map h6 b{
+    font-size: 18px;
+}
+
+.map .socials {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    background-color: #253441;
+    height: 50px;
+    text-align: center;
+    color: rgba(168, 175, 175, 0.39);
+}
+
+.footer p{
+    padding-top: 1rem;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar{
+        display: none;
+    }
+    .mobilenav{
+        display: block;
+    }
+  }
+
+@media screen and (max-width: 775px) {
+    #map{
+        margin-bottom: 2rem;
+    }
+    #title-header{
+        font-size: 45px;
+    }
+    .service {
+        text-align: center;
+        padding: 2rem 3rem 0rem 3rem;
+    }
+    .service p{
+        padding: 1rem 0rem;
+    }
+    .service-bar h5{
+        border-bottom: 3px solid #25344138;
+    }
+    .service-bar #additions{
+        margin-bottom: 0px;
+    }
+    h3{
+        margin-top: 3rem;
+    }
+    .service3-above{
+        display: initial;
+    }
+    .service3-below{
+        display: none;
+    }
+    .service-picture{
+        margin-top: none;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    #map{
+        display: none;
+    }
+    .get-in-touch h4{
+        margin-top: 3rem;
+    }
+    #title-header{
+        font-size: 35px;
+    }
+  }

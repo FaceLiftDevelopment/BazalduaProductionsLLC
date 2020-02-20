@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
+
+body { 
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+hr{
+    background-color: #FCC61F;
+    height: 2px;
+    width: 100%;
+}
+
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 9999;
+    background: none;
+    transition: background .3s linear;
+    height: 75px;
+}
+
+.opaque-nav{ 
+    background: #233658;  
+    /* transition the background-color over 1s with a linear animation */
+    transition: background .3s linear;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+}
+
+.navbar a{
+    color: #f4f9ff
+}
+
+.navbar i{
+    color: white;
+    margin: 0 1rem;
+}
+
+#nav-phone{
+    color: white;
+    font-size: 20px;
+}
+
+#navbar-brand{
+    color: white;
+    font-size: 24px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+  .mobilenav {
+    overflow: hidden;
+    background-color: #253441;
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    display: none;
+    z-index: 999;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+  }
+
+  .hide-mobile-nav{
+    top: -50px;
+    box-shadow: none;
+}
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .mobilenav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .mobilenav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    padding: 14px 16px;
+  }
+  
+  /* Style the hamburger menu */
+  .mobilenav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .mobilenav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    color: white;
+    padding: 14px 16px;
+  }
+
+  .mobilenav #number{
+      padding: 0rem;
+    color: rgb(165, 165, 165);
+    float: right;
+    margin-right: 40px;
+  }
+  .mobilenav #number:hover {
+    background-color: #253441;
+  }
+
+
+.title-card {
+    background-image: url("assets/concrete-truck.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 95vh;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+}
+
+.title-card h2{
+    text-align: center;
+    padding-top: 40vh;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    font-weight: 900;
+    color: white;
+}
+
+.title-card h4{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0,0,0,.6);
+    font-weight: 900;
+}
+
+.mission-slide3{
+    padding: 2rem 8rem;
+    background: rgb(0,137,255);
+    background: linear-gradient(90deg, #1d284f 0%, #1d284f 0%, rgba(151,170,189,1) 100%);
+    text-align: center;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+    color: white;
+}
+
+.mission-slide{
+    padding: 4rem 8rem;
+    background: #ffffff;
+    text-align: center;
+}
+
+.mission-slide .service-card{
+    padding: .5rem 4rem;
+}
+
+.icon-background {
+    color: #FCC61F;
+    text-shadow: 2px 2px 10px #272634;
+}
+
+.fa-utensils{
+    color: #505050;
+}
+
+.fa-toilet{
+    color: #505050;
+}
+
+.fa-plus{
+    color: #505050;
+}
+
+.mission-slide2{
+    padding: 2rem 8rem;
+    text-align: center;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+}
+
+.mission-slide2 .title-background{
+    padding: 2rem 1rem;
+    text-align: right;
+}
+
+.mission-slide2 .mission-background{
+    padding: 2rem 1rem;
+}
+
+.mission-slide2 .mission-background p{
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 18px;
+    margin-bottom: 0;
+    text-align: initial;
+}
+
+.mission-slide2 p{
+font-size: 24px;
+margin: auto;
+font-weight: 400;
+}
+
+.mission-slide2 #award{
+    font-weight: 900;
+    }
+
+.mission-slide2 h1{
+    text-align: left;
+    padding: 0rem 2rem;
+    }
+
+.mission-slide2 li{
+    margin-left: 40px;
+    font-weight: 400;
+    text-align: left;
+    font-size: 18px;
+    }
+
+.values-picture {
+    max-width:100%;
+    height:auto;
+    border-radius: 5px;
+}
+
+.fa-award{
+    color:#FCC61F;
+}
+
+.reviews{
+    padding: 4rem 8rem;
+    background-image: url("assets/concrete.jpg");
+}
+
+.reviews h1{
+    width: 100%;
+    color: #233658;
+}
+
+.reviews .card{
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        width: auto;
+        box-shadow: 3px;
+        text-align: center;
+}
+
+.reviews .card .card-date{
+text-align: left;
+color: #25344163;
+font-weight: 900;
+}
+
+.reviews .fas{
+    color: rgb(236, 204, 22);
+}
+
+.reviews .btn{
+    width: 20%;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.map{
+    padding: 2rem 5rem;
+    background: rgba(133, 144, 170, 0.158);
+}
+
+.map h3{
+    text-align: center;
+}
+
+#map {
+    height:45vh;
+    width: 100%;
+}
+
+.map .contact-text{
+    position: relative;
+}
+
+.map h4{
+    font-weight: 800;
+}
+
+.map h6 b{
+    font-size: 18px;
+}
+
+.map .socials {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.get-in-touch #numberlink {
+    color: #212519;
+}
+
+.footer {
+    background-color: #253441;
+    height: 50px;
+    text-align: center;
+    color: rgba(168, 175, 175, 0.39);
+}
+
+.footer p{
+    padding-top: 1rem;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar{
+        display: none;
+    }
+    .mobilenav{
+        display: block;
+    }
+    .mission-slide{
+        padding: 2rem 2rem;
+    }
+    .reviews{
+        padding: 2rem 2rem;
+    }
+  }
+
+@media screen and (max-width: 775px) {
+    .title-card {
+        background-image: url("assets/concrete-truck.jpg");
+        background-position: calc(63% - 50px) 63%;
+        background-repeat: no-repeat;
+    }
+    .mission-slide2{
+        padding: 2rem 2rem;
+    }
+    .mission-slide2 .title-background {
+        padding: 0rem 1rem 4rem 1rem;
+    }
+    .service-card{
+        margin-bottom: 2rem;
+    }
+    .mission-slide3{
+        padding: 2rem 0rem;
+    }
+    .mission-slide2 #award{
+        font-weight: 900;
+        }
+  }
+
+  @media screen and (max-width: 450px) {
+    .title-card h2{
+    padding-top: 25vh;
+    }
+    .reviews .btn{
+        width: 50%;
+    }
+    #map{
+        display: none;
+    }
+    .get-in-touch h4{
+        margin-top: 3rem;
+    }
+    .mission-slide3 h1{
+        font-size: 24px;
+    }
+  }
