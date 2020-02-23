@@ -120,7 +120,7 @@ hr{
 
 
 .title-card {
-    background-image: url("assets/bazaldua-fb.jpg");
+    background-image: url("assets/concrete-truck.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -180,6 +180,12 @@ hr{
 .mission-slide2 .title-background{
     padding: 2rem 1rem;
     text-align: right;
+}
+
+.mission-slide2 .title-background h2{
+    text-align: center;
+    color: #1d284f;
+    font-weight: 800;
 }
 
 .mission-slide2 .mission-background{
