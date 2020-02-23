@@ -120,7 +120,7 @@ hr{
 
 
 .title-card {
-    background-image: url("assets/concrete-truck.jpg");
+    background-image: url("assets/bazaldua-fb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -201,6 +201,7 @@ font-weight: 400;
 
 .mission-slide2 #award{
     font-weight: 900;
+    color: #3b5998;
     }
 
 .mission-slide2 h1{
@@ -219,10 +220,6 @@ font-weight: 400;
     max-width:100%;
     height:auto;
     border-radius: 5px;
-}
-
-.fa-award{
-    color:#FCC61F;
 }
 
 .reviews{
