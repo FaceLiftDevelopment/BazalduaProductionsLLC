@@ -157,7 +157,7 @@ hr{
     max-width:100%;
     height:auto;
     border-radius: 5px;
-    margin-bottom: 3rem;
+    margin: 3rem 0rem;
 }
 
 .guarantee-slide{
@@ -168,7 +168,7 @@ hr{
 
 .guarantee-slide h1{
 width: 100%;
-padding: 2rem;
+padding: 2rem 0rem;
 }
 
 .guarantee-slide p{
